@@ -6,7 +6,7 @@ public class Hangar {
         Car voiture = new Car("Toyota", 400);
 
         voiture.setBrand("Audio");
-        bateau.setKilometers(500);
+        bateau.setKilometers(900);
 
         System.out.println(bateau.doStuff() + " Et a " + bateau.getKilometers() + " kilomètres");
         System.out.println(voiture.doStuff() + " Et a " + voiture.getKilometers() + " kilomètres");
